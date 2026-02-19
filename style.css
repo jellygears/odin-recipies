@@ -109,3 +109,7 @@ footer {
 #cookies {
     background-image: url(images/cookies.jpeg);
 }
+
+#homepage {
+    position: absolute;
+}
