@@ -1,0 +1,111 @@
+* {
+    background-color: #ecd1af;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+}
+
+html, body {
+    min-height: 100%;
+}
+
+h1 {
+    color: #faebd7;
+    font-size: 48px;
+    background-color: brown;
+    padding: 40px;
+    margin-bottom: 10px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 3px solid #6e1f1f;
+}
+
+h2,
+h3 {
+    color: #6e1f1f;
+    margin: 12px 20px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+footer {
+    color: #faebd7;
+    background-color: brown;
+    position: relative;
+    padding: 20px;
+    bottom: 0;
+    width: 100%;
+    border-top: 3px solid #6e1f1f;
+}
+
+.text {
+    color: #221111;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.image {
+    height: 240px;
+    width: auto;
+    margin: 10px 25px;
+    border: 2px solid #6e1f1f;
+}
+
+.button {
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+    text-shadow: #000000 1px 1px 0;
+    padding: 64px 120px;
+    border: 2px solid #6e1f1f;
+    background-size: cover;
+}
+
+.link {
+    color: inherit;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.button-link {
+    margin: 12px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.link:visited {
+    color: #c2830d;
+}
+
+.button:hover {
+    background-blend-mode: multiply;
+}
+
+#angel {
+    background-image: url(images/cake.jpeg);
+}
+
+#bread {
+    background-image: url(images/banana-bread.jpeg);
+}
+
+#rolls {
+    background-image: url(images/rolls.jpeg);
+}
+
+#cookies {
+    background-image: url(images/cookies.jpeg);
+}
